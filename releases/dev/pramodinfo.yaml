@@ -11,7 +11,7 @@ spec:
   releaseName: pramodinfo-dev
   chart:
     git: git@github.com:pramodbijani/gitops-helm
-    path: charts/podinfo
+    path: charts/pramodinfo
     ref: master
   values:
     image: pramodbijani/podinfo:dev-2pdvcffx
