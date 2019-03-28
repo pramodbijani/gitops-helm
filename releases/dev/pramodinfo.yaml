@@ -5,7 +5,7 @@ metadata:
   name: pramodinfo-dev
   namespace: dev
   annotations:
-    flux.weave.works/automated: "false"
+    flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: glob:dev-*
 spec:
   releaseName: pramodinfo-dev
