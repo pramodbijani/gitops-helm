@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: pramodbijani/podinfo:dev-xxaeww4z
+    image: pramodbijani/podinfo:dev-iafjmn9a
     replicaCount: 1
     hpa:
       enabled: false
