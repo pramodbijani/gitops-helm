@@ -3,7 +3,7 @@ FROM golang:1.10 as builder
 ARG VERSION=unknown
 ARG GITCOMMIT=unknown
 
-RUN mkdir -p /go/src/github.com/stefanprodan/k8s-podinfo/
+RUN mkdir -p /go/src/github.com/pramodbijani/k8s-podinfo/
 
 WORKDIR /go/src/github.com/stefanprodan/k8s-podinfo
 
